@@ -36,3 +36,17 @@ The linkage function performs agglomerative hierarchical clustering on a given d
 The dendrogram function is used to visualize the hierarchical clustering result as a dendrogram. It takes the linkage matrix as input and creates a plot that represents the merging of clusters.
 
 Circos Tool
+
+*
+Clustering algorithms are unsupervised learning methods that do not have predefined labels. Therefore, these evaluation metrics are not applicable directly to clustering algorithms.
+
+However, you can assess the quality of clustering results using other metrics that are specific to clustering tasks. Here are a few commonly used metrics for evaluating clustering algorithms:
+
+Silhouette Score:
+The Silhouette score measures the compactness and separation of clusters. It ranges from -1 to 1, where higher values indicate better-defined clusters.
+
+Adjusted Rand Index (ARI):
+The ARI measures the similarity between the clustering result and the ground truth labels (if available). It ranges from -1 to 1, where values close to 1 indicate strong agreement between the clusters and the true labels.
+
+Homogeneity, Completeness, and V-measure:
+These metrics assess different aspects of clustering quality, including the extent to which each cluster contains only samples from a single true class (homogeneity), the extent to which all samples from a given true class are assigned to the same cluster (completeness), and their harmonic mean (V-measure).

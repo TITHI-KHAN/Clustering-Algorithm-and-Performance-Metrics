@@ -18,6 +18,15 @@ Each algorithm offers a different approach to the challenge of discovering natur
 For a good starting point on this topic, see:
 https://scikit-learn.org/stable/modules/clustering.html
 
-Recommendation Systems: Clustering algorithms can be used to group similar items or users together. Once the clusters are formed, you can apply recommendation algorithms like collaborative filtering or content-based filtering within each cluster to provide personalized recommendations.
+MiniBatchKMeans: A variant of K-means that uses mini-batches to reduce computation time.
+KMeans: The classic K-means clustering algorithm.
+AgglomerativeClustering: Performs hierarchical clustering using different linkage criteria.
+AffinityPropagation: Clusters data by sending messages between pairs of samples.
+Birch: Builds a tree-based structure to perform clustering.
+DBSCAN: Density-based spatial clustering of applications with noise.
+MeanShift: Clustering algorithm based on the idea of moving points towards the densest regions.
+SpectralClustering: Applies clustering to a low-dimensional affinity matrix obtained from data.
+GaussianMixture: Fits a mixture of Gaussian distributions to the data.
+OPTICS: Density-based clustering algorithm that can handle varying densities.
 
 Circos Tool

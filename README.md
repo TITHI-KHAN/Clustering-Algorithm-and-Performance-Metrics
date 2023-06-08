@@ -18,16 +18,16 @@ Each algorithm offers a different approach to the challenge of discovering natur
 # For a good starting point on this topic, see:
 https://scikit-learn.org/stable/modules/clustering.html
 
-MiniBatchKMeans: A variant of K-means that uses mini-batches to reduce computation time.
-KMeans: The classic K-means clustering algorithm.
-AgglomerativeClustering: Performs hierarchical clustering using different linkage criteria.
-AffinityPropagation: Clusters data by sending messages between pairs of samples.
-Birch: Builds a tree-based structure to perform clustering.
-DBSCAN: Density-based spatial clustering of applications with noise.
-MeanShift: Clustering algorithm based on the idea of moving points towards the densest regions.
-SpectralClustering: Applies clustering to a low-dimensional affinity matrix obtained from data.
-GaussianMixture: Fits a mixture of Gaussian distributions to the data.
-OPTICS: Density-based clustering algorithm that can handle varying densities.
+1. MiniBatchKMeans: A variant of K-means that uses mini-batches to reduce computation time.
+2. KMeans: The classic K-means clustering algorithm.
+3. AgglomerativeClustering: Performs hierarchical clustering using different linkage criteria.
+4. AffinityPropagation: Clusters data by sending messages between pairs of samples.
+5. Birch: Builds a tree-based structure to perform clustering.
+6. DBSCAN: Density-based spatial clustering of applications with noise.
+7. MeanShift: Clustering algorithm based on the idea of moving points towards the densest regions.
+8. SpectralClustering: Applies clustering to a low-dimensional affinity matrix obtained from data.
+9. GaussianMixture: Fits a mixture of Gaussian distributions to the data.
+10. OPTICS: Density-based clustering algorithm that can handle varying densities.
 
 # The linkage and dendrogram functions from scipy.cluster.hierarchy are used for hierarchical clustering and visualization.
 

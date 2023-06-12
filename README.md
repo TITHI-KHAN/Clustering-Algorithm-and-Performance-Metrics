@@ -1,7 +1,9 @@
 # Clustering-Algorithm
 
 Library Installation
+
 Clustering Dataset
+
 1. Mini-Batch K-Means
 2. K-Means
 3. Agglomerative Clustering

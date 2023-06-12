@@ -31,8 +31,7 @@ https://scikit-learn.org/stable/modules/clustering.html
 8. SpectralClustering: Applies clustering to a low-dimensional affinity matrix obtained from data.
 9. GaussianMixture: Fits a mixture of Gaussian distributions to the data.
 10. OPTICS: Density-based clustering algorithm that can handle varying densities.
-
-* The linkage and dendrogram functions from scipy.cluster.hierarchy are used for hierarchical clustering and visualization.
+11. The linkage and dendrogram functions from scipy.cluster.hierarchy are used for hierarchical clustering and visualization.
 
 The linkage function performs agglomerative hierarchical clustering on a given dataset. It takes the data points as input and computes the linkage matrix, which represents the hierarchical structure of the clusters. The linkage matrix contains information about the merging of clusters at each step of the algorithm.
 

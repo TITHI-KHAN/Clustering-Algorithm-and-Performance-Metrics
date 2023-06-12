@@ -1,17 +1,18 @@
 # Clustering-Algorithm
 
-1. Library Installation
-2. Clustering Dataset
-3. Affinity Propagation
-4. Agglomerative Clustering
+Library Installation
+Clustering Dataset
+1. Mini-Batch K-Means
+2. K-Means
+3. Agglomerative Clustering
+4. Affinity Propagation 
 5. BIRCH
 6. DBSCAN
-7. K-Means
-8. Mini-Batch K-Means
-9. Mean Shift
+7. Mean Shift
+8. Spectral Clustering
+9. Gaussian Mixture Model
 10. OPTICS
-11. Spectral Clustering
-12. Gaussian Mixture Model
+11. Hierarchical clustering (linkage and dendrogram) 
 
 Each algorithm offers a different approach to the challenge of discovering natural groups in data.
 

@@ -47,7 +47,9 @@ The Silhouette score measures the compactness and separation of clusters. It ran
 The Silhouette Score ranges from -1 to 1, where:
 
 -> A score close to 1 indicates that the data point is well-matched to its own cluster and poorly matched to neighboring clusters. This suggests a good separation between clusters.
+
 -> A score close to 0 indicates that the data point is on or very close to the decision boundary between neighboring clusters.
+
 -> A score close to -1 indicates that the data point is probably assigned to the wrong cluster, as it is more similar to points in a neighboring cluster than its own cluster.
 
 Adjusted Rand Index (ARI):

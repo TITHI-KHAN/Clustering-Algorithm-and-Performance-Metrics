@@ -37,7 +37,8 @@ The dendrogram function is used to visualize the hierarchical clustering result 
 
 Circos Tool
 
-*
+# Performance Metrics
+
 Clustering algorithms are unsupervised learning methods that do not have predefined labels. Therefore, you can assess the quality of clustering results using other metrics that are specific to clustering tasks. Here are a few commonly used metrics for evaluating clustering algorithms:
 
 Silhouette Score:

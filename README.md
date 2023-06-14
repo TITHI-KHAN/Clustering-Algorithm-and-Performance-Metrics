@@ -43,7 +43,7 @@ Circos Tool
 
 Clustering algorithms are unsupervised learning methods that do not have predefined labels. Therefore, you can assess the quality of clustering results using other metrics that are specific to clustering tasks. Here are a few commonly used metrics for evaluating clustering algorithms:
 
-Silhouette Score:
+# Silhouette Score:
 The Silhouette score measures the compactness and separation of clusters. It ranges from -1 to 1, where higher values indicate better-defined clusters.
 
 The Silhouette Score ranges from -1 to 1, where:
@@ -56,12 +56,12 @@ The Silhouette Score ranges from -1 to 1, where:
 
 The silhouette score measures how well each sample in a cluster fits with its neighboring clusters. It considers both the cohesion within the cluster and the separation between clusters. The silhouette score ranges from -1 to 1, where a higher value indicates better-defined and well-separated clusters.
 
-Adjusted Rand Index (ARI):
+# Adjusted Rand Index (ARI):
 The ARI measures the similarity between the clustering result and the ground truth labels (if available). It ranges from -1 to 1, where values close to 1 indicate strong agreement between the clusters and the true labels.
 
 The ARI compares the clustering results with a reference or ground truth clustering, considering all pairs of samples and their labels. It measures the similarity between the two clusterings, accounting for chance agreement. The ARI score ranges from -1 to 1, where 1 indicates a perfect match between the clusterings.
 
-Homogeneity, Completeness, and V-measure:
+# Homogeneity, Completeness, and V-measure:
 These metrics assess different aspects of clustering quality, including the extent to which each cluster contains only samples from a single true class (homogeneity), the extent to which all samples from a given true class are assigned to the same cluster (completeness), and their harmonic mean (V-measure).
 
 Homogeneity measures the extent to which all samples in a cluster belong to the same true class. It evaluates the purity of each cluster in terms of its class composition. The homogeneity score ranges from 0 to 1, with 1 indicating perfect homogeneity.

@@ -69,3 +69,6 @@ Homogeneity measures the extent to which all samples in a cluster belong to the 
 Completeness measures the extent to which all samples of a true class are assigned to the same cluster. It captures the extent to which each true class is represented within a single cluster. The completeness score ranges from 0 to 1, with 1 indicating perfect completeness.
 
 The V-measure is the harmonic mean of homogeneity and completeness, providing a balanced evaluation of both metrics. It assesses the overall quality of the clustering results, considering both the homogeneity and completeness scores. The V-measure ranges from 0 to 1, with 1 indicating the best clustering performance.
+
+![image](https://github.com/TITHI-KHAN/Clustering-Algorithm-and-Performance-Metrics/assets/65033964/b91f4e17-adff-4a65-8a03-96d9b4d01258)
+

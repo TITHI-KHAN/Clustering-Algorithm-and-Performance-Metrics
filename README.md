@@ -54,8 +54,18 @@ The Silhouette Score ranges from -1 to 1, where:
 
 -> A score close to -1 indicates that the data point is probably assigned to the wrong cluster, as it is more similar to points in a neighboring cluster than its own cluster.
 
+The silhouette score measures how well each sample in a cluster fits with its neighboring clusters. It considers both the cohesion within the cluster and the separation between clusters. The silhouette score ranges from -1 to 1, where a higher value indicates better-defined and well-separated clusters.
+
 Adjusted Rand Index (ARI):
 The ARI measures the similarity between the clustering result and the ground truth labels (if available). It ranges from -1 to 1, where values close to 1 indicate strong agreement between the clusters and the true labels.
 
+The ARI compares the clustering results with a reference or ground truth clustering, considering all pairs of samples and their labels. It measures the similarity between the two clusterings, accounting for chance agreement. The ARI score ranges from -1 to 1, where 1 indicates a perfect match between the clusterings.
+
 Homogeneity, Completeness, and V-measure:
 These metrics assess different aspects of clustering quality, including the extent to which each cluster contains only samples from a single true class (homogeneity), the extent to which all samples from a given true class are assigned to the same cluster (completeness), and their harmonic mean (V-measure).
+
+Homogeneity measures the extent to which all samples in a cluster belong to the same true class. It evaluates the purity of each cluster in terms of its class composition. The homogeneity score ranges from 0 to 1, with 1 indicating perfect homogeneity.
+
+Completeness measures the extent to which all samples of a true class are assigned to the same cluster. It captures the extent to which each true class is represented within a single cluster. The completeness score ranges from 0 to 1, with 1 indicating perfect completeness.
+
+The V-measure is the harmonic mean of homogeneity and completeness, providing a balanced evaluation of both metrics. It assesses the overall quality of the clustering results, considering both the homogeneity and completeness scores. The V-measure ranges from 0 to 1, with 1 indicating the best clustering performance.
